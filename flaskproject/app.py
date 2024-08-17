@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-#added the new changes
+#added the new changes,
 app = Flask(__name__)
 
 @app.route('/', methods=['GET','POST'])
