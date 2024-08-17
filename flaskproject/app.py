@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def form():
 
-    if (request.method == 'POST'):
+    if (request.method == 'POST'):   #POST
 
         n = request.form.get('name')
 
